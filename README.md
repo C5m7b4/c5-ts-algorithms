@@ -11,7 +11,12 @@
 This is a small library that contains some algorithms.
 
 - [ArrayList](#arraylist)
+- [LinkedList](#linked-list)
 
 ## ArrayList
 
 A class implementation of the Javascript Array.
+
+## Linked List
+
+This is a data structure that flows one way. Each object has a pointer to the next object.
