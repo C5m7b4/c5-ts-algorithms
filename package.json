@@ -1,7 +1,7 @@
 {
   "name": "c5-ts-algorithms",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "a small library written in typescript for algorithms",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
@@ -12,8 +12,8 @@
     "view:coverage": "start coverage/lcov-report/index.html"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "C5m7b4",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
