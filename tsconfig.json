@@ -21,7 +21,8 @@
     "dist",
     "node_modules",
     "tests",
-    "example"
+    "example",
+    "data"
   ],
   "include":[
     "tsconfig.json",
