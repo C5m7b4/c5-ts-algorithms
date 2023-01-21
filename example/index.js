@@ -21,3 +21,30 @@ steps.map((step) => {
 });
 
 console.log('stepList', stepList);
+
+import { DoublyLinkedList } from '../src';
+
+const dll = new DoublyLinkedList();
+dll.append(1);
+console.log('1 appended', dll);
+dll.append(3);
+console.log('3 appended', dll);
+
+dll.insertAt(2, 1);
+console.log('2 inserted at 1', dll);
+
+dll.prepend(0);
+console.log('0 prepended', dll);
+
+console.log('before removal', dll);
+dll.removeAt(2);
+
+console.log('ddl', dll);
+
+const dblSteps = new DoublyLinkedList();
+
+steps.map((step) => {
+  dblSteps.append(step);
+});
+
+console.log('dblSteps', dblSteps);
