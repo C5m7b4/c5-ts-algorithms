@@ -11,11 +11,16 @@
 This is a small library that contains some algorithms.
 
 - [ArrayList](#arraylist)
+- [DoublyLinkedList](#doublylinkedlist)
 - [LinkedList](#linked-list)
 
 ## ArrayList
 
 A class implementation of the Javascript Array.
+
+## DoublyLinkedList
+
+A data structure where each node has a pointer to the next and previous node.
 
 ## Linked List
 
