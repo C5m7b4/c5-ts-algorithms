@@ -72,3 +72,8 @@ graph2.addEdge(2, 4);
 graph2.addEdge(2, 5);
 const bfs = graph2.breadthFirstTraversal(0);
 console.log('bfs', bfs);
+
+const graph3 = new AdjacencyGraph();
+// @ts-ignore
+debugger;
+const result = graph3.depthFirstTraversal();

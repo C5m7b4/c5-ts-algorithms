@@ -148,6 +148,9 @@ export class AdjacencyGraph<T> {
    * @returns
    */
   depthFirstTraversal(start: T, func?: Function): T[] {
+    if (typeof start === 'undefined' || start === null) {
+      return [];
+    }
     const stack: T[] | number = [];
     if (this.key) {
       // @ts-ignore
@@ -160,7 +163,7 @@ export class AdjacencyGraph<T> {
     const visited = new Map<number, boolean>();
     const result: T[] = [];
     if (this.key) {
-      const startKey = start[this.key] as number;
+      const startKey = start![this.key] as number;
       visited.set(startKey, true);
     } else {
       visited.set(start as number, true);
@@ -177,7 +180,8 @@ export class AdjacencyGraph<T> {
       // if (current)
       // that would equate to false. No first child,
       // no neighbors...no output
-      if (JSON.stringify(current).length > 0) {
+      /* istanbul ignore else */
+      if (current === 0 || JSON.stringify(current).length > 0) {
         result.push(current as T);
         if (this.key) {
           const neighbors = this.adjList.get(
