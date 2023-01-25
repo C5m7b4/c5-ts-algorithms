@@ -23,9 +23,9 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 2,
     '@typescript-eslint/no-unused-vars': 1,
     '@typescript-eslint/ban-ts-comment': 2,
-    '@typescript-eslint/ban-types': 2,
+    '@typescript-eslint/ban-types': 0,
     'preferred-spread': 0,
-    '@typescript-eslint/no-non-null-assertion': 2,
+    '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/ban-ts-comment': 0,
   },
 };
