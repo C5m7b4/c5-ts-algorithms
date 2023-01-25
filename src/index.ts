@@ -1,8 +1,13 @@
 import { Add } from './math';
 import { ArrayList } from './ArrayList';
-import { SinglyLinkedNode, DoublyLinkedListNode } from './types';
+import {
+  SinglyLinkedNode,
+  DoublyLinkedListNode,
+  AdjacencyVertex,
+} from './types';
 import { LinkedList } from './LinkedList';
 import { DoublyLinkedList } from './DoublyLinkedList';
+import { AdjacencyGraph } from './AdjacencyGraph';
 
 export {
   Add,
@@ -11,4 +16,6 @@ export {
   LinkedList,
   DoublyLinkedListNode,
   DoublyLinkedList,
+  AdjacencyVertex,
+  AdjacencyGraph,
 };

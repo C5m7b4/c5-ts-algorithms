@@ -10,9 +10,14 @@
 
 This is a small library that contains some algorithms.
 
+- [Adjacency Graph](#adjacency-graph)
 - [ArrayList](#arraylist)
 - [DoublyLinkedList](#doublylinkedlist)
 - [LinkedList](#linked-list)
+
+## Adjacency Graph
+
+A data structure used to represent relationships
 
 ## ArrayList
 

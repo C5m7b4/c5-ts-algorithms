@@ -8,3 +8,8 @@ export type DoublyLinkedListNode<T> = {
   prev?: DoublyLinkedListNode<T>;
   next?: DoublyLinkedListNode<T>;
 };
+
+export type AdjacencyVertex<T> = {
+  node: T;
+  edges: number[];
+};
