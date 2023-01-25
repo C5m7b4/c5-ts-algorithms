@@ -8,10 +8,12 @@ import {
 import { LinkedList } from './LinkedList';
 import { DoublyLinkedList } from './DoublyLinkedList';
 import { AdjacencyGraph } from './AdjacencyGraph';
+import { BinarySearchTree } from './BinarySearchTree';
 
 export {
   Add,
   ArrayList,
+  BinarySearchTree,
   SinglyLinkedNode,
   LinkedList,
   DoublyLinkedListNode,

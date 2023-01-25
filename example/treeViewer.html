@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Tree Viewer</title>
+</head>
+<body>
+  <h2>BST Visualizer</h2>
+  <div style="margin: 0px auto; border: 1px solid #eb0d1b; text-align: center">
+    <canvas id="canvas" width="200" height="300"></canvas>
+  </div>
+  <div style="text-align: center; margin-top: 1em">
+    <span style="border: 1px solid #37826c; padding: 15px;">
+      Enter a number: <input type="text" value="" id="value" style="width: 3em; text-align: center;" />
+      <button class="button" id="insert">Insert</button>
+      <button class="button" id="search">Search</button>
+      <button class="button" id="remove">Remove</button>
+    </span>
+    <span style="padding: 3px"></span>
+    <span style="border: 1px solid #37826c; padding: 15px">
+      <button class="button" id="preorder">Pre Order</button>
+      <button class="button" id="inorder">In Order</button>
+      <button class="button" id="postorder">Post Order</button>
+    </span>
+  </div>
+  <div id="results" style="display: flex; margin-top: 25px; width: 100%; justify-content: center;"></div>
+  <script src="treeViewer.js"></script>
+</body>
+</html>
