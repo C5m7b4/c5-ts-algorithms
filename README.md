@@ -12,6 +12,7 @@ This is a small library that contains some algorithms.
 
 - [Adjacency Graph](#adjacency-graph)
 - [ArrayList](#arraylist)
+- [Binary Search Tree](#binary-search-tree)
 - [DoublyLinkedList](#doublylinkedlist)
 - [LinkedList](#linked-list)
 
@@ -22,6 +23,10 @@ A data structure used to represent relationships
 ## ArrayList
 
 A class implementation of the Javascript Array.
+
+## Binary Search Tree
+
+A tree where the left nodes must be smaller than their parent node and all nodes to the right must be larger than the parent node.
 
 ## DoublyLinkedList
 

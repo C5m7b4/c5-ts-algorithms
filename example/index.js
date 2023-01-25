@@ -73,7 +73,23 @@ graph2.addEdge(2, 5);
 const bfs = graph2.breadthFirstTraversal(0);
 console.log('bfs', bfs);
 
-const graph3 = new AdjacencyGraph();
-// @ts-ignore
+import { BinarySearchTree } from '../src';
+function comparator(a, b) {
+  if (a < b) return -1;
+  if (a > b) return 1;
+  return 0;
+}
+
+const bst = new BinarySearchTree(comparator);
+bst.insert(10);
+bst.insert(70);
+bst.insert(50);
+bst.insert(40);
+bst.insert(60);
+bst.insert(55);
+bst.insert(65);
+console.log('bst', bst);
+
 debugger;
-const result = graph3.depthFirstTraversal();
+const bstResult = bst.remove(bst.head, 50);
+console.log('bstResult', bstResult);
