@@ -12,8 +12,14 @@ export class BinarySearchTree<T> {
   head?: BinarySearchTreeNode<T>;
   comparator: (a: T, b: T) => number;
 
-  constructor(comparator: (a: T, b: T) => number) {
-    this.comparator = comparator;
+  constructor(comparator?: (a: T, b: T) => number) {
+    this.comparator = comparator ? comparator : this._defaultComparator;
+  }
+
+  _defaultComparator(a: T, b: T): number {
+    if (a > b) return 1;
+    if (a < b) return -1;
+    return 0;
   }
 
   insert(data: T): BinarySearchTreeNode<T> | null {
