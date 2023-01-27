@@ -90,6 +90,16 @@ bst.insert(55);
 bst.insert(65);
 console.log('bst', bst);
 
-debugger;
 const bstResult = bst.remove(bst.head, 50);
 console.log('bstResult', bstResult);
+
+import { AVLTree } from '../src';
+
+const avlTree = new AVLTree();
+avlTree.insert(50);
+avlTree.insert(20);
+avlTree.insert(30);
+avlTree.remove(20);
+console.log('avlTree', avlTree);
+const avlResult = avlTree.preOrderTraversal(avlTree.root);
+console.log('avlResult', avlResult);

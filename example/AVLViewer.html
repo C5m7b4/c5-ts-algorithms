@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>AVL Viewer</title>
+</head>
+<body>
+  <h2>AVL Visualizer</h2>
+  <div style="margin-bottom: 10px"><a href="index.html">Back Home</a></div>
+  <div style="margin: 0px auto; border: 1px solid #eb0d1b; text-align: center; height: 260px">
+    <canvas id="canvas"></canvas>
+  </div>
+  <div style="text-align: center; margin-top: 1em; border: 1px solid #37825c; padding: 10px">
+  <span style="padding: 10px">
+    Enter a number:<input  style="width: 35px; margin-right:15px; margin-left: 5px; text-align: center" type="text" value="" id="value" />
+    <button class="button" id="insert">Insert</button>
+    <button class="button" id="search">Search</button>
+    <button class="button" id="remove">Remove</button>
+    <button class="button" id="maxvalue">Max Value</button>
+    <button class="button" id="minvalue">Min Value</button>
+    <button class="button" id="contains">Contains</button>
+    <button class="button" id="clear">Clear</button>
+  </span>
+</div>
+<div style="text-align: center; margin-top: 1em; border: 1px solid #37825c; padding: 10px">
+  <span style="padding: 10px">
+    <button class="button" id="preorder">Pre Order</button>
+    <button class="button" id="inorder">In Order</button>
+    <button class="button" id="postorder">Post Order</button>
+  </span>
+</div>
+<div style="text-align: center; margin-top: 1em; border: 1px solid #37825c; padding: 10px">
+  <span style="padding: 10px">
+    <button class="button" id="macro1">Macro 1</button>
+    <button class="button" id="macro2">Macro 2</button>
+    <button class="button" id="macro3">Macro 3</button>
+    <button class="button" id="macro4">Macro 4</button>
+    <button class="button" id="macro5">Macro 5</button>
+  </span>
+</div>
+<div id="results" style="width: 100%; text-align: center; margin-top: 20px;"></div>
+<script src="avlViewer.js"></script>
+</body>
+</html>
