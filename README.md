@@ -12,6 +12,7 @@ This is a small library that contains some algorithms.
 
 - [Adjacency Graph](#adjacency-graph)
 - [ArrayList](#arraylist)
+- [AVL Tree](#avl-tree)
 - [Binary Search Tree](#binary-search-tree)
 - [DoublyLinkedList](#doublylinkedlist)
 - [LinkedList](#linked-list)
@@ -23,6 +24,10 @@ A data structure used to represent relationships
 ## ArrayList
 
 A class implementation of the Javascript Array.
+
+## AVL Tree
+
+This is basically a Binary Search Tree, but it can auto balance itself. It's pretty cool. We also have a visualizer to go with it in the example project.
 
 ## Binary Search Tree
 
