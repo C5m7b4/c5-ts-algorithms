@@ -139,4 +139,13 @@ describe('binarySearchTree tests', () => {
     const result = bst.remove(bst.head, 50);
     expect(result.data).toEqual(10);
   });
+
+  test('should handle a default comparator', () => {
+    const tree = new BinarySearchTree<number>();
+    tree.insert(10);
+    tree.insert(20);
+    tree.insert(10);
+    tree.insert(5);
+    expect(tree.head!.data).toEqual(10);
+  });
 });
