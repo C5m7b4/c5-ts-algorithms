@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Arraylist Visualizer</title>
+</head>
+<body>
+  <h2>Arraylist Visualizer</h2>
+  <div style="margin: 0px auto; border: 1px solid #eb0d18; text-align: center">
+    <canvas id="canvas" width="200" height="100"></canvas>
+  </div>
+  <div style="text-align:center; margin-top: 1em">
+    <span style="border: 1px solid black; padding: 10px">
+      Enter a number: <input type="text" value="" id="value" style="width: 3em; text-align: center;" />
+      Enter an index: <input type="text" value="" id="index" style="width: 3em; text-align: center;"/>
+      <button class="button" id="push">Push</button>
+      <button class="button" id="pop">Pop</button>
+      <button class="button" id="get">Get</button>
+      <button class="button" id="delete">Delete</button>
+      <button class="button" id="size">Size</button>
+    </span>
+  </div>
+  <div style="margin-top: 10px; text-align: center;display: flex; justify-content: center">
+    <button class="button" id="confirm-delete" style="display:none;">Confirm Delete</button>
+  </div>
+  <div id="results" style="margin-top: 10px; text-align: center; border: 1px solid black; padding: 10px;">
+
+  </div>
+  <script src="arrayListVisualizer.js"></script>
+</body>
+</html>
