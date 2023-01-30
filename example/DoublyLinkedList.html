@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>DoublyLinkedList</title>
+</head>
+<body>
+  <h2>DoublyLinkedList</h2>
+  <div style="padding: 10px;">
+    Prev: <span style="color: green; width: 20px; height: 20px; border: 1px solid green; padding: 5px">Green</span>
+   
+  </div>
+  <div style="padding: 10px">
+    Next: <span style="color: red; width: 20px; height: 20px; border: 1px solid red; padding: 5px;">red</span>
+  </div>
+  <div style="margin: 0px auto; border: 1px solid #eb0d18; text-align: center">
+    <canvas id="canvas" width="200" height="100"></canvas>
+  </div>
+
+  <div style="text-align: center; margin-top: 1em">
+    Enter a number: <input type="text" value="" id="value" style="width: 3em; text-align: center; margin-left: 5px" />
+    Enter an index: <input type="text" value="" id="index" style="width: 3em; text-align: center; margin-left: 5px" />
+    <button class="button" id="prepend">Prepend</button>
+    <button class="button" id="insertat">InsertAt</button>
+    <button class="button" id="append">Append</button>
+    <button class="button" id="remove">Remove</button>
+    <button class="button" id="get">Get</button>
+    <button class="button" id="removeat">RemoveAt</button>
+    <button class="button" id="getat">GetAt</button>
+    <button class="button" id="clear">Clear</button>
+  </div>
+  <div id="results" style="border: 1px solid black; padding: 15px; text-align: center; margin-top: 10px;">
+
+  </div>
+  <script src="doublyLinkedList.js"></script>
+</body>
+</html>
