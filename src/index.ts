@@ -12,6 +12,7 @@ import { DoublyLinkedList } from './DoublyLinkedList';
 import { AdjacencyGraph } from './AdjacencyGraph';
 import { BinarySearchTree } from './BinarySearchTree';
 import { AVLTree, AVLTreeNode } from './AVLTree';
+import { LinearSearch, LinearSearch1 } from './LinearSearch';
 
 export {
   Add,
@@ -27,4 +28,6 @@ export {
   DoublyLinkedList,
   AdjacencyVertex,
   AdjacencyGraph,
+  LinearSearch,
+  LinearSearch1,
 };
