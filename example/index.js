@@ -103,3 +103,14 @@ avlTree.remove(20);
 console.log('avlTree', avlTree);
 const avlResult = avlTree.preOrderTraversal(avlTree.root);
 console.log('avlResult', avlResult);
+
+import { BinarySearch } from '../src';
+
+const binaryArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const binaryResult = BinarySearch(binaryArray, 8);
+console.log('binaryResult', binaryResult);
+
+const arr = ['first', 'hello', 'name', 'second'];
+const result8 = BinarySearch(arr, 'first');
+console.log('result8', result8);
