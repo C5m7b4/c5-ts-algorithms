@@ -13,6 +13,7 @@ import { AdjacencyGraph } from './AdjacencyGraph';
 import { BinarySearchTree } from './BinarySearchTree';
 import { AVLTree, AVLTreeNode } from './AVLTree';
 import { LinearSearch, LinearSearch1 } from './LinearSearch';
+import { BinarySearch } from './BinarySearch';
 
 export {
   Add,
@@ -30,4 +31,5 @@ export {
   AdjacencyGraph,
   LinearSearch,
   LinearSearch1,
+  BinarySearch,
 };
