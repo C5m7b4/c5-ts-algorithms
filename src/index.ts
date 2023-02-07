@@ -14,22 +14,24 @@ import { BinarySearchTree } from './BinarySearchTree';
 import { AVLTree, AVLTreeNode } from './AVLTree';
 import { LinearSearch, LinearSearch1 } from './LinearSearch';
 import { BinarySearch } from './BinarySearch';
+import { QuickSort } from './QuickSort';
 
 export {
   Add,
+  AdjacencyGraph,
+  AdjacencyVertex,
   ArrayList,
   AVLTree,
   AVLTreeNode,
   BalancedType,
+  BinarySearch,
   BinarySearchTree,
   ComparatorFunction,
-  SinglyLinkedNode,
-  LinkedList,
-  DoublyLinkedListNode,
   DoublyLinkedList,
-  AdjacencyVertex,
-  AdjacencyGraph,
+  DoublyLinkedListNode,
   LinearSearch,
   LinearSearch1,
-  BinarySearch,
+  LinkedList,
+  SinglyLinkedNode,
+  QuickSort,
 };

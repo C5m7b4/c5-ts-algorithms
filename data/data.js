@@ -123,3 +123,192 @@ export const employees = [
     hireDate: '1/1/2018',
   },
 ];
+
+export const emps = [
+  {
+    id: 1,
+    name: 'josh',
+    age: 24,
+    hireDate: '1/15/2021',
+  },
+  {
+    id: 2,
+    name: 'sally',
+    age: 28,
+    hireDate: '1/1/2023',
+  },
+  {
+    id: 3,
+    name: 'tom',
+    age: 16,
+    hireDate: '9/12/2022',
+  },
+  {
+    id: 4,
+    name: 'megan',
+    age: 21,
+    hireDate: '3/4/2022',
+  },
+];
+
+export const empsSortedByAgeAscending = [
+  {
+    id: 3,
+    name: 'tom',
+    age: 16,
+    hireDate: '9/12/2022',
+  },
+  {
+    id: 4,
+    name: 'megan',
+    age: 21,
+    hireDate: '3/4/2022',
+  },
+  {
+    id: 1,
+    name: 'josh',
+    age: 24,
+    hireDate: '1/15/2021',
+  },
+  {
+    id: 2,
+    name: 'sally',
+    age: 28,
+    hireDate: '1/1/2023',
+  },
+];
+
+export const empsSortedByAgeDescending = [
+  {
+    id: 2,
+    name: 'sally',
+    age: 28,
+    hireDate: '1/1/2023',
+  },
+  {
+    id: 1,
+    name: 'josh',
+    age: 24,
+    hireDate: '1/15/2021',
+  },
+  {
+    id: 4,
+    name: 'megan',
+    age: 21,
+    hireDate: '3/4/2022',
+  },
+  {
+    id: 3,
+    name: 'tom',
+    age: 16,
+    hireDate: '9/12/2022',
+  },
+];
+
+export const empsSortedByNameAscending = [
+  {
+    id: 1,
+    name: 'josh',
+    age: 24,
+    hireDate: '1/15/2021',
+  },
+  {
+    id: 4,
+    name: 'megan',
+    age: 21,
+    hireDate: '3/4/2022',
+  },
+  {
+    id: 2,
+    name: 'sally',
+    age: 28,
+    hireDate: '1/1/2023',
+  },
+  {
+    id: 3,
+    name: 'tom',
+    age: 16,
+    hireDate: '9/12/2022',
+  },
+];
+
+export const empsSortedByNameDescending = [
+  {
+    id: 3,
+    name: 'tom',
+    age: 16,
+    hireDate: '9/12/2022',
+  },
+  {
+    id: 2,
+    name: 'sally',
+    age: 28,
+    hireDate: '1/1/2023',
+  },
+  {
+    id: 4,
+    name: 'megan',
+    age: 21,
+    hireDate: '3/4/2022',
+  },
+  {
+    id: 1,
+    name: 'josh',
+    age: 24,
+    hireDate: '1/15/2021',
+  },
+];
+
+export const empsSortedByHireDateAscending = [
+  {
+    id: 1,
+    name: 'josh',
+    age: 24,
+    hireDate: '1/15/2021',
+  },
+  {
+    id: 4,
+    name: 'megan',
+    age: 21,
+    hireDate: '3/4/2022',
+  },
+  {
+    id: 3,
+    name: 'tom',
+    age: 16,
+    hireDate: '9/12/2022',
+  },
+  {
+    id: 2,
+    name: 'sally',
+    age: 28,
+    hireDate: '1/1/2023',
+  },
+];
+
+export const empsSortedByHireDateDescending = [
+  {
+    id: 2,
+    name: 'sally',
+    age: 28,
+    hireDate: '1/1/2023',
+  },
+  {
+    id: 3,
+    name: 'tom',
+    age: 16,
+    hireDate: '9/12/2022',
+  },
+  {
+    id: 4,
+    name: 'megan',
+    age: 21,
+    hireDate: '3/4/2022',
+  },
+  {
+    id: 1,
+    name: 'josh',
+    age: 24,
+    hireDate: '1/15/2021',
+  },
+];

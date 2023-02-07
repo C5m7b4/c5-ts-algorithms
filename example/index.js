@@ -114,3 +114,65 @@ console.log('binaryResult', binaryResult);
 const arr = ['first', 'hello', 'name', 'second'];
 const result8 = BinarySearch(arr, 'first');
 console.log('result8', result8);
+
+const words = ['bazinga', 'flags', 'fun', 'another', 'truth'];
+console.log(words.sort());
+
+console.log(
+  words.sort((a, b) => {
+    if (b > a) return 1;
+    if (b < a) return -1;
+    return 0;
+  })
+);
+
+const emps = [
+  {
+    id: 1,
+    name: 'jimbo',
+    age: 25,
+    hireDate: '1/1/2020',
+    price: '1.25',
+  },
+  {
+    id: 2,
+    name: 'sally',
+    age: 18,
+    hireDate: '2/1/2023',
+    price: '3.75',
+  },
+  {
+    id: 3,
+    name: 'tom',
+    age: 42,
+    hireDate: '6/5/2021',
+    price: '.65',
+  },
+  {
+    id: 4,
+    name: 'donna',
+    age: 12,
+    hireDate: '7/1/2020',
+    price: '10.25',
+  },
+];
+
+import { QuickSort } from '../src';
+const nums = [8, 7, 6, 4, 5];
+console.log(QuickSort(nums, true));
+console.log(QuickSort(nums, false));
+const numbs1 = [50, 45, 10, 2, 18, 25, 13];
+console.log(QuickSort(numbs1, true));
+console.log(QuickSort(numbs1, false));
+
+console.log(QuickSort(emps, true, 'age'));
+console.log(QuickSort(emps, false, 'age'));
+
+console.log(QuickSort(emps, true, 'name'));
+console.log(QuickSort(emps, false, 'name'));
+
+console.log(QuickSort(emps, true, 'hireDate', true));
+console.log(QuickSort(emps, false, 'hireDate', true));
+
+console.log(QuickSort(emps, true, 'price'));
+console.log(QuickSort(emps, false, 'price'));
