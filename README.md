@@ -18,6 +18,7 @@ This is a small library that contains some algorithms.
 - [DoublyLinkedList](#doublylinkedlist)
 - [LinearSearch](#linearsearch)
 - [LinkedList](#linked-list)
+- [QuickSort](#quick-sort)
 
 ## Adjacency Graph
 
@@ -50,3 +51,7 @@ A brute force search
 ## Linked List
 
 This is a data structure that flows one way. Each object has a pointer to the next object.
+
+## Quick Sort
+
+A divide and conquer sorting algorithm
