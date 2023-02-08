@@ -15,6 +15,7 @@ import { AVLTree, AVLTreeNode } from './AVLTree';
 import { LinearSearch, LinearSearch1 } from './LinearSearch';
 import { BinarySearch } from './BinarySearch';
 import { QuickSort } from './QuickSort';
+import { BubbleSort } from './BubbleSort';
 
 export {
   Add,
@@ -34,4 +35,5 @@ export {
   LinkedList,
   SinglyLinkedNode,
   QuickSort,
+  BubbleSort,
 };

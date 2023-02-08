@@ -174,5 +174,14 @@ console.log(QuickSort(emps, false, 'name'));
 console.log(QuickSort(emps, true, 'hireDate', true));
 console.log(QuickSort(emps, false, 'hireDate', true));
 
-console.log(QuickSort(emps, true, 'price'));
-console.log(QuickSort(emps, false, 'price'));
+import { BubbleSort } from '../src';
+
+console.log('bubbleSort', BubbleSort(nums));
+console.log('bubbleSort', BubbleSort(nums, false));
+
+console.log('bubbleSort', BubbleSort(emps, true, 'age'));
+console.log('bubbleSort', BubbleSort(emps, false, 'age'));
+console.log('bubbleSort', BubbleSort(emps, true, 'name'));
+console.log('bubbleSort', BubbleSort(emps, false, 'name'));
+console.log('bubbleSort', BubbleSort(emps, true, 'hireDate', true));
+console.log('bubbleSort', BubbleSort(emps, false, 'hireDate', true));
