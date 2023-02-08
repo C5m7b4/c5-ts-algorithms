@@ -17,6 +17,7 @@ This is a small library that contains some algorithms.
 - [Binary Search Tree](#binary-search-tree)
 - [BubbleSort](#bubble-sort)
 - [DoublyLinkedList](#doublylinkedlist)
+- [InsertionSort](#insertionsort)
 - [LinearSearch](#linearsearch)
 - [LinkedList](#linked-list)
 - [QuickSort](#quick-sort)
@@ -48,6 +49,10 @@ A very simple sorting algorithm
 ## DoublyLinkedList
 
 A data structure where each node has a pointer to the next and previous node.
+
+## Insertion Sort
+
+Another sorting algorithm
 
 ### LinearSearch
 

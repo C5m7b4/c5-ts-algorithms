@@ -100,7 +100,7 @@ async function run() {
 
   let left = spacePosition.left + 50;
 
-  arr.forEach(async (v, i) => {
+  arr.forEach(async (v) => {
     const div = document.createElement('span');
     div.classList.add('box');
     div.classList.add('fadein');

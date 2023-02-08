@@ -16,6 +16,7 @@ import { LinearSearch, LinearSearch1 } from './LinearSearch';
 import { BinarySearch } from './BinarySearch';
 import { QuickSort } from './QuickSort';
 import { BubbleSort } from './BubbleSort';
+import { InsertionSort } from './InsertionSort';
 
 export {
   Add,
@@ -36,4 +37,5 @@ export {
   SinglyLinkedNode,
   QuickSort,
   BubbleSort,
+  InsertionSort,
 };

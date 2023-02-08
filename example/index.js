@@ -185,3 +185,16 @@ console.log('bubbleSort', BubbleSort(emps, true, 'name'));
 console.log('bubbleSort', BubbleSort(emps, false, 'name'));
 console.log('bubbleSort', BubbleSort(emps, true, 'hireDate', true));
 console.log('bubbleSort', BubbleSort(emps, false, 'hireDate', true));
+
+import { InsertionSort } from '../src';
+const inums = [2, 3, 5, 4, 1];
+console.log('insertionSort', InsertionSort(inums));
+console.log('insertionSortDesc', InsertionSort(inums, false));
+
+console.log('**************************');
+console.log('insertionSort', InsertionSort(emps, true, 'age'));
+console.log('insertionSort', InsertionSort(emps, false, 'age'));
+console.log('insertionSort', InsertionSort(emps, true, 'name'));
+console.log('insertionSort', InsertionSort(emps, false, 'name'));
+console.log('insertionSort', InsertionSort(emps, true, 'hireDate', true));
+console.log('insertionSort', InsertionSort(emps, false, 'hireDate', true));
