@@ -15,6 +15,7 @@ This is a small library that contains some algorithms.
 - [AVL Tree](#avl-tree)
 - [BinarySearch](#binarysearch)
 - [Binary Search Tree](#binary-search-tree)
+- [BubbleSort](#bubble-sort)
 - [DoublyLinkedList](#doublylinkedlist)
 - [LinearSearch](#linearsearch)
 - [LinkedList](#linked-list)
@@ -39,6 +40,10 @@ A divide and conquer search method
 ## Binary Search Tree
 
 A tree where the left nodes must be smaller than their parent node and all nodes to the right must be larger than the parent node.
+
+## Bubble Sort
+
+A very simple sorting algorithm
 
 ## DoublyLinkedList
 
