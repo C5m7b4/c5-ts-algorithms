@@ -198,3 +198,15 @@ console.log('insertionSort', InsertionSort(emps, true, 'name'));
 console.log('insertionSort', InsertionSort(emps, false, 'name'));
 console.log('insertionSort', InsertionSort(emps, true, 'hireDate', true));
 console.log('insertionSort', InsertionSort(emps, false, 'hireDate', true));
+
+import { MergeSort } from '../src';
+console.log('mergesort', MergeSort(nums));
+console.log('mergesort', MergeSort(nums, false));
+
+console.log('*********************');
+console.log('mergeSort', MergeSort(emps, true, 'age'));
+console.log('mergeSort', MergeSort(emps, false, 'age'));
+console.log('mergesort', MergeSort(emps, true, 'name'));
+console.log('mergesort', MergeSort(emps, false, 'name'));
+console.log('mergesort', MergeSort(emps, true, 'hireDate', true));
+console.log('mergesort', MergeSort(emps, false, 'hireDate', true));

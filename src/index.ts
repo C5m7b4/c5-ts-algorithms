@@ -17,6 +17,7 @@ import { BinarySearch } from './BinarySearch';
 import { QuickSort } from './QuickSort';
 import { BubbleSort } from './BubbleSort';
 import { InsertionSort } from './InsertionSort';
+import { MergeSort } from './MergeSort';
 
 export {
   Add,
@@ -38,4 +39,5 @@ export {
   QuickSort,
   BubbleSort,
   InsertionSort,
+  MergeSort,
 };
