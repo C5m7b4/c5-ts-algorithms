@@ -17,9 +17,10 @@ This is a small library that contains some algorithms.
 - [Binary Search Tree](#binary-search-tree)
 - [BubbleSort](#bubble-sort)
 - [DoublyLinkedList](#doublylinkedlist)
-- [InsertionSort](#insertionsort)
+- [InsertionSort](#insertion-sort)
 - [LinearSearch](#linearsearch)
 - [LinkedList](#linked-list)
+- [MergeSort](#merge-sort)
 - [QuickSort](#quick-sort)
 
 ## Adjacency Graph
@@ -61,6 +62,10 @@ A brute force search
 ## Linked List
 
 This is a data structure that flows one way. Each object has a pointer to the next object.
+
+## Merge Sort
+
+A divide and conquer sorting method
 
 ## Quick Sort
 
