@@ -6,6 +6,7 @@ import {
   AdjacencyVertex,
   ComparatorFunction,
   BalancedType,
+  BinaryNode,
 } from './types';
 import { LinkedList } from './LinkedList';
 import { DoublyLinkedList } from './DoublyLinkedList';
@@ -18,6 +19,7 @@ import { QuickSort } from './QuickSort';
 import { BubbleSort } from './BubbleSort';
 import { InsertionSort } from './InsertionSort';
 import { MergeSort } from './MergeSort';
+import { CompareBinaryTrees } from './CompareBinaryTrees';
 
 export {
   Add,
@@ -40,4 +42,6 @@ export {
   BubbleSort,
   InsertionSort,
   MergeSort,
+  BinaryNode,
+  CompareBinaryTrees,
 };

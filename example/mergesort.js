@@ -205,17 +205,6 @@ async function sort(arr) {
 
 showBoxes();
 
-function extractArray() {
-  let numbers = '';
-  if (storedArray.childNodes.length > 0) {
-    for (let i = 0; i < storedArray.childNodes.length; i++) {
-      const el = storedArray.childNodes[i];
-      numbers += el.textContent + ',';
-    }
-  }
-  return numbers.substring(0, numbers.length - 1);
-}
-
 document.getElementById('btnSort').addEventListener('click', () => {
   const arr = getArrayNodes();
   console.log('arr', arr);
@@ -225,7 +214,5 @@ document.getElementById('btnSort').addEventListener('click', () => {
 
 document.getElementById('submit').addEventListener('click', showBoxes);
 document.getElementById('btnUnsort').addEventListener('click', () => {
-  // const numbers = extractArray();
-  // document.getElementById('values').valueu = numbers;
   showBoxes();
 });

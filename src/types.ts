@@ -28,3 +28,9 @@ export const enum BalancedType {
   // left is 2 or more than right
   UNBALANCED_LEFT,
 }
+
+export type BinaryNode<T> = {
+  value: T;
+  left: BinaryNode<T> | null;
+  right: BinaryNode<T> | null;
+};
