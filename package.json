@@ -2,7 +2,12 @@
   "name": "c5-ts-algorithms",
   "version": "0.0.2",
   "description": "a small library written in typescript for algorithms",
-  "main": "index.js",
+  "main": "dist/csj/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files":[
+    "dist"
+  ],
   "scripts": {
     "build": "rm -rf dist && rollup -c",
     "lint": "eslint . --ext .ts",
@@ -10,6 +15,10 @@
     "test:coverage": "jest --coverage",
     "test:watch": " jest --watch",
     "view:coverage": "start coverage/lcov-report/index.html"
+  },
+  "repository":{
+    "type":"git",
+    "url": "https://github.com/C5m7b4/c5-ts-algorithms"
   },
   "keywords": [],
   "author": "C5m7b4",
