@@ -16,6 +16,7 @@ This is a small library that contains some algorithms.
 - [BinarySearch](#binarysearch)
 - [Binary Search Tree](#binary-search-tree)
 - [BubbleSort](#bubble-sort)
+- [CompareBinaryTrees](#comparebinarysearchtrees)
 - [DoublyLinkedList](#doublylinkedlist)
 - [InsertionSort](#insertion-sort)
 - [LinearSearch](#linearsearch)
@@ -46,6 +47,10 @@ A tree where the left nodes must be smaller than their parent node and all nodes
 ## Bubble Sort
 
 A very simple sorting algorithm
+
+## CompareBinarySearchTrees
+
+An algorithm that will compare two Binary Trees and tell you if they are a match or not
 
 ## DoublyLinkedList
 
