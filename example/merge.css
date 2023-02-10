@@ -1,0 +1,115 @@
+body{
+  background: #212326;
+  color: white;
+}
+
+main{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.link{
+  margin-bottom: 10px;
+}
+
+a{
+  color: white;
+
+}
+a:visited{
+  color: white;
+}
+
+.container{
+  position: relative;
+  height: 60vh;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.array-container{
+  display:inline-flex;
+  flex: 0 0 auto;
+  position: absolute;
+}
+
+.array-element{
+  height: 40px;
+  width: 40px;
+  margin: 0 1px 0 1px;
+  background: red;
+  text-align: center;
+  font-weight:bold;
+}
+
+.buttons{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.btn{
+  border-radius:8px;
+  padding: 13px 20px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  transition: all .2s ease;
+
+}
+
+.btn:active{
+  transform: scale(1.2)
+}
+
+.btn1{
+  background-color: limegreen;
+  color: white;
+}
+
+.btn:hover{
+  background-color:rgb(143, 236, 143);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn2{
+  background-color: red;
+  color: white;
+}
+
+.btn2:hover{
+  background-color: rgb(225, 97, 97);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.settings{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(141, 135, 135);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.arrayelement{
+  background-color: red;
+  color: white;
+  height: 25px;
+  width: 25px;
+  margin-right: 2px;
+}
+
+.spinme{
+  padding: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
