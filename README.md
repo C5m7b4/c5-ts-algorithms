@@ -32,9 +32,13 @@ A data structure used to represent relationships
 
 A class implementation of the Javascript Array.
 
+![alt arraylist](images/arraylist.png)
+
 ## AVL Tree
 
 This is basically a Binary Search Tree, but it can auto balance itself. It's pretty cool. We also have a visualizer to go with it in the example project.
+
+![alt avl](images/avl.png)
 
 ## BinarySearch
 
@@ -44,9 +48,13 @@ A divide and conquer search method
 
 A tree where the left nodes must be smaller than their parent node and all nodes to the right must be larger than the parent node.
 
+![alt bst](images/bst.png)
+
 ## Bubble Sort
 
 A very simple sorting algorithm
+
+![alt bubblesort](images/bubblesort.png)
 
 ## CompareBinarySearchTrees
 
@@ -55,6 +63,8 @@ An algorithm that will compare two Binary Trees and tell you if they are a match
 ## DoublyLinkedList
 
 A data structure where each node has a pointer to the next and previous node.
+
+![alt dll](images/dll.png)
 
 ## Insertion Sort
 
@@ -68,6 +78,8 @@ A brute force search
 
 This is a data structure that flows one way. Each object has a pointer to the next object.
 
+![alt linkedlist](images/linkedList.png)
+
 ## Merge Sort
 
 A divide and conquer sorting method
@@ -75,3 +87,5 @@ A divide and conquer sorting method
 ## Quick Sort
 
 A divide and conquer sorting algorithm
+
+![alt quicksort](images/quicksort.png)
