@@ -70,6 +70,8 @@ A data structure where each node has a pointer to the next and previous node.
 
 Another sorting algorithm
 
+![alt insertionsort](images/insertionsort.png)
+
 ### LinearSearch
 
 A brute force search
@@ -83,6 +85,8 @@ This is a data structure that flows one way. Each object has a pointer to the ne
 ## Merge Sort
 
 A divide and conquer sorting method
+
+![alt mergesort](images/mergesort.png)
 
 ## Quick Sort
 
